@@ -10,22 +10,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="QUANTITY" />
+        android:text="Quantity"
+        android:textAllCaps="true" />
 
     <TextView
         android:id="@+id/quanity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:textSize="16sp"
+        android:text="0"
         android:textColor="#000000"
-        android:text="0" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/order_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="order"
-        android:onClick= "selfDestruct"/>
+        android:layout_marginTop="16dp"
+        android:text="order" />
 
 </LinearLayout>
